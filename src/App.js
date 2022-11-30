@@ -1,11 +1,12 @@
-import { Button } from 'antd';
 import 'antd/dist/reset.css';
-import './App.css';
+import Layout from './pages/layout';
+import styles from './App.less'
 
 function App () {
+
   return (
-    <div className="App">
-      <Button type="primary">Button</Button>
+    <div className="App" style={styles.app}>
+      <Layout></Layout>
     </div>
   );
 }

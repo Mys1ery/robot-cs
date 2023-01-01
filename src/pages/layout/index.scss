@@ -1,0 +1,30 @@
+.outer {
+  height: 100%;
+  .ant-layout-header {
+    background-color: #24292f;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    .ant-menu {
+      background-color: #24292f;
+    }
+  }
+}
+.ant-layout-sider {
+  margin: 24px 0;
+  background-color: #f5f5f5;
+  .ant-menu {
+    border-radius: 0 6px 0;
+  }
+  .ant-layout-sider-trigger {
+    position: initial;
+    background-color: #24292f;
+  }
+}
+.content {
+  margin: 24px;
+  padding: 10px;
+  border-radius: 6px;
+  background-color: #ffffff;
+}

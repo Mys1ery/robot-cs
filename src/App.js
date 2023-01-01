@@ -1,12 +1,12 @@
 import 'antd/dist/reset.css';
 import Layout from './pages/layout';
-import styles from './App.less'
+import './App.scss'
 
 function App () {
 
   return (
-    <div className="App" style={styles.app}>
-      <Layout></Layout>
+    <div className="App">
+      <Layout />
     </div>
   );
 }
